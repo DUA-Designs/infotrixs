@@ -84,7 +84,7 @@
     transform: scaleY(1);
     transition:  0.5s ease;
 }
- #flex-box-childs{
+ .flex-box-childs{
     padding: 1rem;
     width: 50%;
   
@@ -106,7 +106,7 @@
  #box2 h1{
     font-size: 3rem;
  }
- #flex-box-childs:nth-child(2) p{
+ .flex-box-childs:nth-child(2) p{
     border-bottom: 1px solid rgb(202, 195, 195);
     padding: 0.5rem;
     display: flex;justify-content: space-between;
@@ -174,7 +174,7 @@
     #flex-box{
       padding: 0.3rem;
     }
-    #flex-box-childs{
+    .flex-box-childs{
       padding: 0.5rem;
     }
     
